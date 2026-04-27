@@ -43,5 +43,5 @@ HTML Canvas will be utilized to display the flashcards in a rounded rectangle sh
 
 - HTML, CSS, Vanilla JavaScript
 - `localStorage` for tournament persistence
-- HTML Canvas for bracket rendering
+- HTML Canvas for design
 - VS Code + GitHub
