@@ -26,13 +26,13 @@ This is a web app that lets users practice basic skills learned in class to prep
 | Requirement | Implementation |
 |---|---|
 | **If Statements & Loops** | Loops can primarily be used generate flashcards from the certain array for that specific subject. This iteration will help with click, next, and flip. If statements can be used for checking if the user entered a flashcard that is already a part of the pre-made set.|
-| **Event Listeners** | Event Listeners for basically every button that will be visible and for flashcards to move dynamically. |
+| **Event Listeners** | Event Listeners for basically every button that will be visible and for flashcards to move dynamically. Event Listeners will also listen for card difficulty changes as well flashcard saves in the web app. |
 | **DOM Element Creation** | The entire bracket (every round column, match card, contestant name label, and winner indicator) is built dynamically with `createElement` and `appendChild`. Nothing is hardcoded in the HTML beyond the app shell. |
-| **Classes & Subclasses** | A base `Tournament` class holds the contestant list, bracket state, and methods like `generateBracket()` and `recordWinner()`. `SingleEliminationTournament` extends `Tournament` and implements the specific bracket-advancement logic. A `Match` class represents each individual pairing with properties for both contestants and the winner. |
+| **Classes & Subclasses** | A base `flashcard` class holds the about 4 arrays (arrays of arrays maybe) worth of content with methods like `checkAnswer`. `Deck` takes the flashcards and handles everything surrounding shuffling and current progress.|
 
 ---
 
-## DLC — Additional Topics
+## DLC — Additional Topic
 
 ### HTML Canvas
 HTML Canvas will be utilized to display the flashcards in a rounded rectangle shape for a softer look using the `<canvas>` element. The difficulty color will be changed and shown on the homepage of the web app. 
