@@ -1,6 +1,6 @@
-# Custom Tournament Bracket Builder
+# Custom Flashcard Set
 **WEB-115 Final Project Proposal**
-Student: Eva Pathak | Repo: WEB-115_FinalProject_Pathak
+Student: Eva Pathak | Repo: `WEB-115_FinalProject_Pathak`
 
 ---
 
