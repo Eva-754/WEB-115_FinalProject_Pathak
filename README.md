@@ -25,8 +25,8 @@ This is a web app that lets users practice basic skills learned in class to prep
 
 | Requirement | Implementation |
 |---|---|
-| **If Statements & Loops** | Generating the bracket requires looping over contestants to pair them into first-round matches. If statements determine whether a round is complete (all winners chosen) before unlocking the next round, and check edge cases like odd contestant counts or a bye slot. |
-| **Event Listeners** | Click listeners on each match card select the winner and trigger a re-render. A submit listener on the setup form kicks off bracket generation. A reset button clears state after a confirmation check. |
+| **If Statements & Loops** | Loops can primarily be used generate flashcards from the certain array for that specific subject. This iteration will help with click, next, and flip. If statements can be used for checking if the user entered a flashcard that is already a part of the pre-made set.|
+| **Event Listeners** | Event Listeners for basically every button that will be visible and for flashcards to move dynamically. |
 | **DOM Element Creation** | The entire bracket (every round column, match card, contestant name label, and winner indicator) is built dynamically with `createElement` and `appendChild`. Nothing is hardcoded in the HTML beyond the app shell. |
 | **Classes & Subclasses** | A base `Tournament` class holds the contestant list, bracket state, and methods like `generateBracket()` and `recordWinner()`. `SingleEliminationTournament` extends `Tournament` and implements the specific bracket-advancement logic. A `Match` class represents each individual pairing with properties for both contestants and the winner. |
 
@@ -35,7 +35,7 @@ This is a web app that lets users practice basic skills learned in class to prep
 ## DLC — Additional Topics
 
 ### HTML Canvas
-The bracket is rendered visually on an HTML `<canvas>` element. Contestants are drawn as labeled boxes, connecting lines show the bracket structure, and completed matches are styled differently from pending ones. Canvas re-renders after every winner selection to reflect the updated state.
+HTML Canvas will be utilized to display the flashcards in a rounded rectangle shape for a softer look using the `<canvas>` element. The difficulty color will be changed and shown on the homepage of the web app. 
 
 ---
 
