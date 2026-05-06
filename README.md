@@ -6,7 +6,7 @@ Student: Eva Pathak | Repo: `WEB-115_FinalProject_Pathak`
 
 ## Overview
 
-This is a web app that lets users practice basic skills learned in class to prepare for quizzes, tests, exams, and maybe even just for fun! The user can find a topic to study for from a list of a few core subjects (AP Lang, AP PreCalc, APUSH, and AP Physics) for a typical high school junior. The user can add in any flashcard they think isn't covered in the web app. There will be buttons to click next and flip the card with no background distractions for a focused study session. The flashcards will be stored to a `localStorage` so progress is not lost.
+This is a web app that lets users practice basic skills learned in class to prepare for quizzes, tests, exams, and maybe even just for fun! The user can find a topic to study for from a list of a few core subjects (AP Lang AP PreCalculus) for a typical high school junior. The user can add in any flashcard they think isn't covered in the web app. There will be buttons to click next and flip the card with no background distractions for a focused study session. The flashcards will be stored to a `localStorage` so progress is not lost.
 
 ---
 
