@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+   
+    <h1 id="title"> Welcome To CardFlow </h1>
+
+    <canvas id="canvas" width="400" height="250"></canvas>
+
+    <select id="subject-select">
+        <option>AP Lang</option>
+        <option>AP PreCalc</option>
+    </select>
+
+    <div class="controls">
+        <button id="back">Back</button>
+        <button id="next">Next</button>
+        <button id="flip">Flip</button>
+    </div>
+
+    <div id="card" class="card">
+        <p id="cardtxt">Click "add card" to get started!</p>
+    </div>
+
+    <div class="difficulty-rating">
+        <button id="easy">Easy</button>
+        <button id="medium">Medium</button>
+        <button id="hard">Hard</button>
+    </div>
+
+    <div class="form">
+        <input type="text" id="question" placeholder="Enter question">
+        <input type="text" id="answer" placeholder="Enter answer">
+        <button id="add-button">Add Card</button>
+    </div>
+
+    <button id="delete-button">Delete Card</button>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
